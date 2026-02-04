@@ -1,0 +1,2232 @@
+{
+  "election": {
+    "name": "第51回衆議院議員総選挙",
+    "date": "2026-02-08",
+    "totalSeats": 465,
+    "totalCandidates": 1285
+  },
+  "prefectures": [
+    {
+      "id": 1,
+      "name": "北海道",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "道下大樹", "party": "中道改革連合", "status": "前職"},
+            {"name": "臼木秀剛", "party": "国民民主党", "status": "前職"},
+            {"name": "森英士", "party": "日本共産党", "status": "新人"},
+            {"name": "加藤貴弘", "party": "自由民主党", "status": "新人"},
+            {"name": "加納千津子", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "平岡大介", "party": "日本共産党", "status": "新人"},
+            {"name": "高橋祐介", "party": "自由民主党", "status": "元職"},
+            {"name": "松木謙公", "party": "中道改革連合", "status": "前職"},
+            {"name": "中田綾子", "party": "参政党", "status": "新人"},
+            {"name": "山崎泉", "party": "日本維新の会", "status": "新人"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "高木宏寿", "party": "自由民主党", "status": "元職"},
+            {"name": "中島良樹", "party": "参政党", "status": "新人"},
+            {"name": "円子裕子", "party": "日本共産党", "status": "新人"},
+            {"name": "荒井優", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 4,
+          "candidates": [
+            {"name": "佐々木明美", "party": "日本共産党", "status": "新人"},
+            {"name": "中村裕之", "party": "自由民主党", "status": "前職"},
+            {"name": "大築紅葉", "party": "中道改革連合", "status": "前職"},
+            {"name": "高橋翔太", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 5,
+          "candidates": [
+            {"name": "和田義明", "party": "自由民主党", "status": "元職"},
+            {"name": "池田真紀", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 6,
+          "candidates": [
+            {"name": "荻生和敏", "party": "日本共産党", "status": "新人"},
+            {"name": "西川将人", "party": "中道改革連合", "status": "前職"},
+            {"name": "東国幹", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 7,
+          "candidates": [
+            {"name": "篠田奈保子", "party": "中道改革連合", "status": "前職"},
+            {"name": "鈴木貴子", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 8,
+          "candidates": [
+            {"name": "逢坂誠二", "party": "中道改革連合", "status": "前職"},
+            {"name": "向山淳", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 9,
+          "candidates": [
+            {"name": "立野広志", "party": "日本共産党", "status": "新人"},
+            {"name": "松下英樹", "party": "自由民主党", "status": "新人"},
+            {"name": "山岡達丸", "party": "中道改革連合", "status": "前職"},
+            {"name": "菅野望帆", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 10,
+          "candidates": [
+            {"name": "渡辺孝一", "party": "自由民主党", "status": "元職"},
+            {"name": "神谷裕", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 11,
+          "candidates": [
+            {"name": "宇都隆史", "party": "参政党", "status": "新人"},
+            {"name": "石川香織", "party": "中道改革連合", "status": "前職"},
+            {"name": "中川紘一", "party": "自由民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 12,
+          "candidates": [
+            {"name": "武部新", "party": "自由民主党", "status": "前職"},
+            {"name": "川原田英世", "party": "中道改革連合", "status": "前職"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "青森県",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "升田世喜男", "party": "中道改革連合", "status": "前職"},
+            {"name": "斎藤美緒", "party": "日本共産党", "status": "新人"},
+            {"name": "加藤勉", "party": "参政党", "status": "新人"},
+            {"name": "津島淳", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "神田潤一", "party": "自由民主党", "status": "前職"},
+            {"name": "金浜亨", "party": "国民民主党", "status": "新人"},
+            {"name": "久保将", "party": "日本共産党", "status": "新人"},
+            {"name": "松尾和彦", "party": "中道改革連合", "status": "新人"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "岡田華子", "party": "中道改革連合", "status": "前職"},
+            {"name": "木村次郎", "party": "自由民主党", "status": "元職"},
+            {"name": "佐原若子", "party": "れいわ新選組", "status": "前職"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "岩手県",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "階猛", "party": "中道改革連合", "status": "前職"},
+            {"name": "米内紘正", "party": "自由民主党", "status": "新人"},
+            {"name": "吉田恭子", "party": "日本共産党", "status": "新人"},
+            {"name": "佐々木大成", "party": "参政党", "status": "新人"},
+            {"name": "小笠原勇治", "party": "無所属", "status": "新人"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "佐々木真琴", "party": "国民民主党", "status": "新人"},
+            {"name": "鈴木俊一", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "小沢一郎", "party": "中道改革連合", "status": "前職"},
+            {"name": "藤原崇", "party": "自由民主党", "status": "元職"},
+            {"name": "及川泰輔", "party": "参政党", "status": "新人"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "宮城県",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "ローレンス綾子", "party": "参政党", "status": "新人"},
+            {"name": "中嶋廉", "party": "日本共産党", "status": "新人"},
+            {"name": "高橋浩司", "party": "日本維新の会", "status": "新人"},
+            {"name": "土井亨", "party": "自由民主党", "status": "元職"},
+            {"name": "岡本章子", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "和田政宗", "party": "参政党", "status": "新人"},
+            {"name": "鎌田さゆり", "party": "中道改革連合", "status": "前職"},
+            {"name": "早坂敦", "party": "日本維新の会", "status": "元職"},
+            {"name": "渡辺勝幸", "party": "自由民主党", "status": "新人"},
+            {"name": "佐藤理々香", "party": "国民民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "西村明宏", "party": "自由民主党", "status": "元職"},
+            {"name": "林萌子", "party": "参政党", "status": "新人"},
+            {"name": "柳沢剛", "party": "中道改革連合", "status": "前職"},
+            {"name": "結城孝", "party": "無所属", "status": "新人"},
+            {"name": "浅田晃司", "party": "無所属", "status": "新人"}
+          ]
+        },
+        {
+          "number": 4,
+          "candidates": [
+            {"name": "佐野誠", "party": "参政党", "status": "新人"},
+            {"name": "安住淳", "party": "中道改革連合", "status": "前職"},
+            {"name": "森下千里", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 5,
+          "candidates": [
+            {"name": "境恒春", "party": "中道改革連合", "status": "新人"},
+            {"name": "小野寺五典", "party": "自由民主党", "status": "前職"},
+            {"name": "結城豊", "party": "日本共産党", "status": "新人"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "秋田県",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "冨樫博之", "party": "自由民主党", "status": "前職"},
+            {"name": "木村佐知子", "party": "国民民主党", "status": "新人"},
+            {"name": "佐藤美和子", "party": "参政党", "status": "新人"},
+            {"name": "鈴木知", "party": "日本共産党", "status": "新人"},
+            {"name": "早川周作", "party": "中道改革連合", "status": "新人"},
+            {"name": "松浦大悟", "party": "日本維新の会", "status": "新人"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "福原淳嗣", "party": "自由民主党", "status": "前職"},
+            {"name": "緑川貴士", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "御法川信英", "party": "自由民主党", "status": "前職"},
+            {"name": "村岡敏英", "party": "国民民主党", "status": "前職"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "山形県",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "遠藤寛明", "party": "自由民主党", "status": "新人"},
+            {"name": "原田和広", "party": "中道改革連合", "status": "前職"},
+            {"name": "桜田恭子", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "菊池大二郎", "party": "国民民主党", "status": "前職"},
+            {"name": "鈴木憲和", "party": "自由民主党", "status": "前職"},
+            {"name": "岩本康嗣", "party": "日本共産党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "落合拓磨", "party": "中道改革連合", "status": "新人"},
+            {"name": "遠藤和史", "party": "参政党", "status": "新人"},
+            {"name": "加藤鮎子", "party": "自由民主党", "status": "前職"},
+            {"name": "喜多恒介", "party": "国民民主党", "status": "新人"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "福島県",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "西山尚利", "party": "自由民主党", "status": "新人"},
+            {"name": "亀岡偉一", "party": "無所属", "status": "新人"},
+            {"name": "金子恵美", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "玄葉光一郎", "party": "中道改革連合", "status": "前職"},
+            {"name": "大山里幸子", "party": "参政党", "status": "新人"},
+            {"name": "遠藤雄大", "party": "無所属", "status": "新人"},
+            {"name": "丸本由美子", "party": "日本共産党", "status": "新人"},
+            {"name": "根本拓", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "上杉謙太郎", "party": "自由民主党", "status": "元職"},
+            {"name": "金山屯", "party": "無所属", "status": "新人"},
+            {"name": "小熊慎司", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 4,
+          "candidates": [
+            {"name": "山口洋太", "party": "国民民主党", "status": "新人"},
+            {"name": "斎藤裕喜", "party": "中道改革連合", "status": "前職"},
+            {"name": "熊谷智", "party": "日本共産党", "status": "新人"},
+            {"name": "坂本竜太郎", "party": "自由民主党", "status": "前職"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "茨城県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "大内久美子", "party": "日本共産党", "status": "新人"},
+          {"name": "川端絢美", "party": "参政党", "status": "新人"},
+          {"name": "福島伸享", "party": "無所属", "status": "前職"},
+          {"name": "田所嘉徳", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "宮内匠", "party": "参政党", "status": "新人"},
+          {"name": "小沼巧", "party": "中道改革連合", "status": "新人"},
+          {"name": "額賀福志郎", "party": "自由民主党", "status": "前職"},
+          {"name": "谷川祐一", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "斎藤真衣", "party": "参政党", "status": "新人"},
+          {"name": "梶岡博樹", "party": "中道改革連合", "status": "新人"},
+          {"name": "葉梨康弘", "party": "自由民主党", "status": "前職"},
+          {"name": "加川裕美", "party": "れいわ新選組", "status": "新人"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "吉田翔", "party": "日本共産党", "status": "新人"},
+          {"name": "梶山弘志", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "鈴木拓海", "party": "自由民主党", "status": "新人"},
+          {"name": "浅野哲", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "稲葉英樹", "party": "日本共産党", "status": "新人"},
+          {"name": "青山大人", "party": "無所属", "status": "前職"},
+          {"name": "堀越麻紀", "party": "参政党", "status": "新人"},
+          {"name": "国光文乃", "party": "自由民主党", "status": "前職"},
+          {"name": "中村吉男", "party": "無所属", "status": "新人"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "永岡桂子", "party": "自由民主党", "status": "前職"},
+          {"name": "中村勇太", "party": "無所属", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "栃木県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "大森紀明", "party": "参政党", "status": "新人"},
+          {"name": "青木弘", "party": "日本共産党", "status": "新人"},
+          {"name": "船田元", "party": "自由民主党", "status": "前職"},
+          {"name": "小池篤史", "party": "中道改革連合", "status": "新人"},
+          {"name": "柏倉祐司", "party": "日本維新の会", "status": "元職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "福田昭夫", "party": "中道改革連合", "status": "前職"},
+          {"name": "五十嵐清", "party": "自由民主党", "status": "前職"},
+          {"name": "藤田久美", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "渡辺真太朗", "party": "無所属", "status": "新人"},
+          {"name": "簗和生", "party": "自由民主党", "status": "前職"},
+          {"name": "伊賀央", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "石坂太", "party": "自由民主党", "status": "新人"},
+          {"name": "藤岡隆雄", "party": "中道改革連合", "status": "前職"},
+          {"name": "野口智子", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "茂木敏充", "party": "自由民主党", "status": "前職"},
+          {"name": "寺田和史", "party": "国民民主党", "status": "新人"},
+          {"name": "岡村恵子", "party": "日本共産党", "status": "新人"},
+          {"name": "宮本陽介", "party": "参政党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 10,
+      "name": "群馬県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "中曽根康隆", "party": "自由民主党", "status": "前職"},
+          {"name": "店橋世津子", "party": "日本共産党", "status": "新人"},
+          {"name": "河村正剛", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "原和隆", "party": "国民民主党", "status": "新人"},
+          {"name": "井野俊郎", "party": "自由民主党", "status": "前職"},
+          {"name": "石関貴史", "party": "無所属", "status": "元職"},
+          {"name": "高橋保", "party": "日本共産党", "status": "新人"},
+          {"name": "伊藤純子", "party": "日本保守党", "status": "新人"},
+          {"name": "熊井戸園子", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "長谷川嘉一", "party": "中道改革連合", "status": "前職"},
+          {"name": "笹川博義", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "伊藤達也", "party": "日本共産党", "status": "新人"},
+          {"name": "青木ひとみ", "party": "参政党", "status": "新人"},
+          {"name": "福田達夫", "party": "自由民主党", "status": "前職"},
+          {"name": "山田博規", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "小渕優子", "party": "自由民主党", "status": "前職"},
+          {"name": "木暮智貴", "party": "参政党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 11,
+      "name": "埼玉県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "村井英樹", "party": "自由民主党", "status": "前職"},
+          {"name": "菅又士廊", "party": "参政党", "status": "新人"},
+          {"name": "武正公一", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "菅野静華", "party": "参政党", "status": "新人"},
+          {"name": "高橋英明", "party": "日本維新の会", "status": "前職"},
+          {"name": "新藤義孝", "party": "自由民主党", "status": "前職"},
+          {"name": "細谷勇人", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "中村尚子", "party": "参政党", "status": "新人"},
+          {"name": "黄川田仁志", "party": "自由民主党", "status": "前職"},
+          {"name": "竹内千春", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "岸田光広", "party": "国民民主党", "status": "前職"},
+          {"name": "工藤薫", "party": "日本共産党", "status": "新人"},
+          {"name": "穂坂泰", "party": "自由民主党", "status": "前職"},
+          {"name": "伊勢田享子", "party": "日本維新の会", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "枝野幸男", "party": "中道改革連合", "status": "前職"},
+          {"name": "飯塚佳佑", "party": "参政党", "status": "新人"},
+          {"name": "井原隆", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "長島美子", "party": "参政党", "status": "新人"},
+          {"name": "大島敦", "party": "中道改革連合", "status": "前職"},
+          {"name": "津田賢伯", "party": "日本維新の会", "status": "新人"},
+          {"name": "尾花瑛仁", "party": "自由民主党", "status": "新人"},
+          {"name": "秋山もえ", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "小宮山泰子", "party": "中道改革連合", "status": "前職"},
+          {"name": "中野英幸", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 8, "candidates": [
+          {"name": "市来伴子", "party": "中道改革連合", "status": "前職"},
+          {"name": "柴山昌彦", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 9, "candidates": [
+          {"name": "杉村慎治", "party": "中道改革連合", "status": "前職"},
+          {"name": "大塚拓", "party": "自由民主党", "status": "元職"}
+        ]},
+        {"number": 10, "candidates": [
+          {"name": "坂本祐之輔", "party": "中道改革連合", "status": "前職"},
+          {"name": "山口晋", "party": "自由民主党", "status": "元職"}
+        ]},
+        {"number": 11, "candidates": [
+          {"name": "小泉龍司", "party": "自由民主党", "status": "前職"},
+          {"name": "島田誠", "party": "中道改革連合", "status": "新人"},
+          {"name": "甲斐隆", "party": "参政党", "status": "新人"},
+          {"name": "柿沼遥輝", "party": "日本共産党", "status": "新人"},
+          {"name": "布施卓人", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 12, "candidates": [
+          {"name": "森田俊和", "party": "中道改革連合", "status": "前職"},
+          {"name": "野中厚", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 13, "candidates": [
+          {"name": "三ツ林裕巳", "party": "自由民主党", "status": "元職"},
+          {"name": "杉山鎮夫", "party": "参政党", "status": "新人"},
+          {"name": "橋本幹彦", "party": "国民民主党", "status": "前職"},
+          {"name": "沢口千枝子", "party": "日本共産党", "status": "新人"},
+          {"name": "高井崇志", "party": "れいわ新選組", "status": "前職"}
+        ]},
+        {"number": 14, "candidates": [
+          {"name": "苗村京子", "party": "日本共産党", "status": "新人"},
+          {"name": "雨宮裕子", "party": "参政党", "status": "新人"},
+          {"name": "藤田誠", "party": "自由民主党", "status": "新人"},
+          {"name": "鈴木義弘", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 15, "candidates": [
+          {"name": "田中良生", "party": "自由民主党", "status": "前職"},
+          {"name": "藤川広明", "party": "諸派", "status": "新人"},
+          {"name": "南原竜樹", "party": "日本維新の会", "status": "新人"},
+          {"name": "小山田経子", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 16, "candidates": [
+          {"name": "土屋品子", "party": "自由民主党", "status": "前職"},
+          {"name": "永堀健", "party": "日本共産党", "status": "新人"},
+          {"name": "三角創太", "party": "中道改革連合", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 12,
+      "name": "千葉県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "上田敦広", "party": "参政党", "status": "新人"},
+          {"name": "門山宏哲", "party": "自由民主党", "status": "元職"},
+          {"name": "田嶋要", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "小林鷹之", "party": "自由民主党", "status": "前職"},
+          {"name": "白石ちよ", "party": "日本共産党", "status": "新人"},
+          {"name": "佐藤由美", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "渡部公美子", "party": "日本共産党", "status": "新人"},
+          {"name": "山本政幸", "party": "参政党", "status": "新人"},
+          {"name": "松野博一", "party": "自由民主党", "status": "前職"},
+          {"name": "岡島一正", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "玉堀里衣", "party": "日本共産党", "status": "新人"},
+          {"name": "鹿嶋祐介", "party": "自由民主党", "status": "新人"},
+          {"name": "水沼秀幸", "party": "中道改革連合", "status": "前職"},
+          {"name": "工藤聖子", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "英利アルフィヤ", "party": "自由民主党", "status": "前職"},
+          {"name": "矢崎堅太郎", "party": "中道改革連合", "status": "前職"},
+          {"name": "岡野純子", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "武藤雄大", "party": "国民民主党", "status": "新人"},
+          {"name": "安藤淳子", "party": "中道改革連合", "status": "前職"},
+          {"name": "渡辺博道", "party": "自由民主党", "status": "元職"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "斎藤健", "party": "自由民主党", "status": "前職"},
+          {"name": "林田章裕", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 8, "candidates": [
+          {"name": "宮本寛之", "party": "参政党", "status": "新人"},
+          {"name": "石塚貞通", "party": "日本維新の会", "status": "新人"},
+          {"name": "松本泉", "party": "自由民主党", "status": "新人"},
+          {"name": "本庄知史", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 9, "candidates": [
+          {"name": "田宮寿人", "party": "自由民主党", "status": "新人"},
+          {"name": "奥野総一郎", "party": "中道改革連合", "status": "前職"},
+          {"name": "田沼隆志", "party": "日本維新の会", "status": "元職"}
+        ]},
+        {"number": 10, "candidates": [
+          {"name": "田村理江", "party": "日本共産党", "status": "新人"},
+          {"name": "谷田川元", "party": "中道改革連合", "status": "前職"},
+          {"name": "小池正昭", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 11, "candidates": [
+          {"name": "椎名史明", "party": "日本共産党", "status": "新人"},
+          {"name": "森英介", "party": "自由民主党", "status": "前職"},
+          {"name": "多ケ谷亮", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 12, "candidates": [
+          {"name": "葛原茂", "party": "日本共産党", "status": "新人"},
+          {"name": "浜田靖一", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 13, "candidates": [
+          {"name": "宮川伸", "party": "中道改革連合", "status": "前職"},
+          {"name": "松本尚", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 14, "candidates": [
+          {"name": "野田佳彦", "party": "中道改革連合", "status": "前職"},
+          {"name": "長野春信", "party": "自由民主党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 15,
+      "name": "新潟県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "西村智奈美", "party": "中道改革連合", "status": "前職"},
+          {"name": "内山航", "party": "自由民主党", "status": "新人"},
+          {"name": "小池幸夫", "party": "参政党", "status": "新人"},
+          {"name": "伊藤和成", "party": "日本維新の会", "status": "新人"},
+          {"name": "中村岳夫", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "平井恵里子", "party": "参政党", "status": "新人"},
+          {"name": "金井典子", "party": "日本維新の会", "status": "新人"},
+          {"name": "国定勇人", "party": "自由民主党", "status": "前職"},
+          {"name": "菊田真紀子", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "佐久間慶子", "party": "参政党", "status": "新人"},
+          {"name": "黒岩宇洋", "party": "中道改革連合", "status": "前職"},
+          {"name": "斎藤洋明", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "鷲尾英一郎", "party": "自由民主党", "status": "元職"},
+          {"name": "米山隆一", "party": "中道改革連合", "status": "前職"},
+          {"name": "野村泰暉", "party": "国民民主党", "status": "新人"},
+          {"name": "大矢寿乃", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "梅谷守", "party": "中道改革連合", "status": "前職"},
+          {"name": "高野直行", "party": "参政党", "status": "新人"},
+          {"name": "高鳥修一", "party": "自由民主党", "status": "元職"}
+        ]}
+      ]
+    },
+    {
+      "id": 16,
+      "name": "富山県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "青山了介", "party": "日本共産党", "status": "新人"},
+          {"name": "中田宏", "party": "自由民主党", "status": "元職"},
+          {"name": "山登志浩", "party": "中道改革連合", "status": "前職"},
+          {"name": "斉藤匠", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "越川康晴", "party": "中道改革連合", "status": "新人"},
+          {"name": "上田英俊", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "山本圭太", "party": "国民民主党", "status": "新人"},
+          {"name": "坂本洋史", "party": "日本共産党", "status": "新人"},
+          {"name": "橘慶一郎", "party": "自由民主党", "status": "前職"},
+          {"name": "直原美和子", "party": "参政党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 17,
+      "name": "石川県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "小森卓郎", "party": "自由民主党", "status": "前職"},
+          {"name": "小竹凱", "party": "国民民主党", "status": "前職"},
+          {"name": "小林誠", "party": "日本維新の会", "status": "新人"},
+          {"name": "川裕一郎", "party": "参政党", "status": "新人"},
+          {"name": "村田茂", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "佐々木紀", "party": "自由民主党", "status": "前職"},
+          {"name": "坂本洋", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "西田昭二", "party": "自由民主党", "status": "前職"},
+          {"name": "南聡司", "party": "日本共産党", "status": "新人"},
+          {"name": "近藤和也", "party": "中道改革連合", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 18,
+      "name": "福井県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "山中俊祐", "party": "国民民主党", "status": "新人"},
+          {"name": "藤本一希", "party": "参政党", "status": "新人"},
+          {"name": "稲田朋美", "party": "自由民主党", "status": "前職"},
+          {"name": "波多野翼", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "斉木武志", "party": "無所属", "status": "前職"},
+          {"name": "辻英之", "party": "中道改革連合", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 19,
+      "name": "山梨県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "中島克仁", "party": "中道改革連合", "status": "前職"},
+          {"name": "鈴木大介", "party": "参政党", "status": "新人"},
+          {"name": "田中星那", "party": "日本共産党", "status": "新人"},
+          {"name": "中谷真一", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "早田記史", "party": "日本共産党", "status": "新人"},
+          {"name": "堀内詔子", "party": "自由民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 20,
+      "name": "長野県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "若狭清史", "party": "日本維新の会", "status": "新人"},
+          {"name": "篠原孝", "party": "中道改革連合", "status": "前職"},
+          {"name": "若林健太", "party": "自由民主党", "status": "元職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "手塚大輔", "party": "日本維新の会", "status": "新人"},
+          {"name": "下条みつ", "party": "中道改革連合", "status": "前職"},
+          {"name": "竹下博善", "party": "参政党", "status": "新人"},
+          {"name": "藤田ひかる", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "山口孝司", "party": "れいわ新選組", "status": "新人"},
+          {"name": "井出庸生", "party": "自由民主党", "status": "前職"},
+          {"name": "仁科裕貴", "party": "参政党", "status": "新人"},
+          {"name": "神津健", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "武田良介", "party": "日本共産党", "status": "新人"},
+          {"name": "後藤茂之", "party": "自由民主党", "status": "前職"},
+          {"name": "花岡明久", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "宮下一郎", "party": "自由民主党", "status": "前職"},
+          {"name": "福田淳太", "party": "中道改革連合", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 21,
+      "name": "岐阜県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "服部学", "party": "中道改革連合", "status": "新人"},
+          {"name": "野田聖子", "party": "自由民主党", "status": "前職"},
+          {"name": "波多野純子", "party": "日本共産党", "status": "新人"},
+          {"name": "成井まゆ子", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "棚橋泰文", "party": "自由民主党", "status": "前職"},
+          {"name": "伊藤あゆみ", "party": "無所属", "status": "新人"},
+          {"name": "塚原雅也", "party": "参政党", "status": "新人"},
+          {"name": "唐沢理恵", "party": "無所属", "status": "新人"},
+          {"name": "野村美穂", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "武藤容治", "party": "自由民主党", "status": "前職"},
+          {"name": "仙田晃宏", "party": "国民民主党", "status": "前職"},
+          {"name": "阪口直人", "party": "れいわ新選組", "status": "前職"},
+          {"name": "伊藤恵介", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "今井雅人", "party": "中道改革連合", "status": "前職"},
+          {"name": "曽我雄介", "party": "参政党", "status": "新人"},
+          {"name": "加藤大博", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "真野哲", "party": "中道改革連合", "status": "前職"},
+          {"name": "吉田企貴", "party": "国民民主党", "status": "新人"},
+          {"name": "古屋圭司", "party": "自由民主党", "status": "前職"},
+          {"name": "山田良司", "party": "日本維新の会", "status": "元職"}
+        ]}
+      ]
+    },
+    {
+      "id": 22,
+      "name": "静岡県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "鈴木節子", "party": "日本共産党", "status": "新人"},
+          {"name": "柴田将平", "party": "国民民主党", "status": "新人"},
+          {"name": "上川陽子", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "鈴木岳幸", "party": "中道改革連合", "status": "前職"},
+          {"name": "井林辰憲", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "山本裕三", "party": "自由民主党", "status": "新人"},
+          {"name": "中橋辰也", "party": "参政党", "status": "新人"},
+          {"name": "竹村真弓", "party": "日本共産党", "status": "新人"},
+          {"name": "小山展弘", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "深沢陽一", "party": "自由民主党", "status": "前職"},
+          {"name": "鈴木智", "party": "れいわ新選組", "status": "新人"},
+          {"name": "高田晃宏", "party": "参政党", "status": "新人"},
+          {"name": "田中健", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "中村正善", "party": "中道改革連合", "status": "新人"},
+          {"name": "細野豪志", "party": "自由民主党", "status": "前職"},
+          {"name": "下山一美", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "輦止保教", "party": "参政党", "status": "新人"},
+          {"name": "勝俣孝明", "party": "自由民主党", "status": "前職"},
+          {"name": "渡辺周", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "北野谷富子", "party": "国民民主党", "status": "新人"},
+          {"name": "袴田サヤカ", "party": "参政党", "status": "新人"},
+          {"name": "城内実", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 8, "candidates": [
+          {"name": "稲葉大輔", "party": "自由民主党", "status": "新人"},
+          {"name": "村田優哉", "party": "日本共産党", "status": "新人"},
+          {"name": "神田綾乃", "party": "参政党", "status": "新人"},
+          {"name": "源馬謙太郎", "party": "中道改革連合", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 23,
+      "name": "愛知県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "熊田裕通", "party": "自由民主党", "status": "元職"},
+          {"name": "吉田統彦", "party": "中道改革連合", "status": "元職"},
+          {"name": "河村たかし", "party": "減税日本", "status": "前職"},
+          {"name": "近田茜", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "酒井健太朗", "party": "日本共産党", "status": "新人"},
+          {"name": "辻秀樹", "party": "自由民主党", "status": "新人"},
+          {"name": "梅村忠司", "party": "減税日本", "status": "新人"},
+          {"name": "古川元久", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "柴田民雄", "party": "日本共産党", "status": "新人"},
+          {"name": "水野良彦", "party": "自由民主党", "status": "新人"},
+          {"name": "皆川雅一", "party": "日本維新の会", "status": "新人"},
+          {"name": "平岩征樹", "party": "減税日本", "status": "前職"},
+          {"name": "近藤昭一", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "志村康博", "party": "減税日本", "status": "新人"},
+          {"name": "高橋祐介", "party": "日本共産党", "status": "新人"},
+          {"name": "中田千代", "party": "日本維新の会", "status": "新人"},
+          {"name": "牧義夫", "party": "中道改革連合", "status": "前職"},
+          {"name": "工藤彰三", "party": "自由民主党", "status": "前職"},
+          {"name": "魚住佳奈", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "神田憲次", "party": "無所属", "status": "元職"},
+          {"name": "田中克和", "party": "減税日本", "status": "新人"},
+          {"name": "渡辺藍理", "party": "参政党", "status": "新人"},
+          {"name": "岡本康宏", "party": "自由民主党", "status": "新人"},
+          {"name": "西川厚志", "party": "中道改革連合", "status": "前職"},
+          {"name": "江上博之", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "大西雅人", "party": "社会民主党", "status": "新人"},
+          {"name": "橋本勉", "party": "減税日本", "status": "元職"},
+          {"name": "国崎信江", "party": "中道改革連合", "status": "新人"},
+          {"name": "春日舞", "party": "参政党", "status": "新人"},
+          {"name": "丹羽秀樹", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "鈴木弘一", "party": "日本共産党", "status": "新人"},
+          {"name": "鈴木淳司", "party": "自由民主党", "status": "元職"},
+          {"name": "日野紗里亜", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 8, "candidates": [
+          {"name": "伴野豊", "party": "中道改革連合", "status": "前職"},
+          {"name": "伊藤忠彦", "party": "自由民主党", "status": "前職"},
+          {"name": "中川健一", "party": "日本保守党", "status": "新人"}
+        ]},
+        {"number": 9, "candidates": [
+          {"name": "浦上奈々", "party": "日本維新の会", "status": "新人"},
+          {"name": "伊藤恵子", "party": "日本共産党", "status": "新人"},
+          {"name": "長坂康正", "party": "自由民主党", "status": "前職"},
+          {"name": "岡本充功", "party": "中道改革連合", "status": "前職"},
+          {"name": "加藤泰稚", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 10, "candidates": [
+          {"name": "若山慎司", "party": "自由民主党", "status": "前職"},
+          {"name": "杉本和巳", "party": "日本維新の会", "status": "前職"},
+          {"name": "三嶋竜平", "party": "国民民主党", "status": "新人"},
+          {"name": "山内遼平", "party": "参政党", "status": "新人"},
+          {"name": "藤原規真", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 11, "candidates": [
+          {"name": "丹野みどり", "party": "国民民主党", "status": "前職"},
+          {"name": "藤沢忠盛", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 12, "candidates": [
+          {"name": "重徳和彦", "party": "中道改革連合", "status": "前職"},
+          {"name": "青山周平", "party": "自由民主党", "status": "元職"},
+          {"name": "中川博登", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 13, "candidates": [
+          {"name": "大西健介", "party": "中道改革連合", "status": "前職"},
+          {"name": "牛田清博", "party": "日本共産党", "status": "新人"},
+          {"name": "石井拓", "party": "自由民主党", "status": "元職"}
+        ]},
+        {"number": 14, "candidates": [
+          {"name": "浅尾大輔", "party": "日本共産党", "status": "新人"},
+          {"name": "大嶽理恵", "party": "中道改革連合", "status": "前職"},
+          {"name": "今枝宗一郎", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 15, "candidates": [
+          {"name": "関健一郎", "party": "日本維新の会", "status": "元職"},
+          {"name": "小山千帆", "party": "中道改革連合", "status": "前職"},
+          {"name": "根本幸典", "party": "自由民主党", "status": "前職"},
+          {"name": "鈴木勝裕", "party": "参政党", "status": "新人"},
+          {"name": "辻恵", "party": "れいわ新選組", "status": "元職"},
+          {"name": "竹上裕子", "party": "減税日本", "status": "前職"}
+        ]},
+        {"number": 16, "candidates": [
+          {"name": "渡辺信江", "party": "参政党", "status": "新人"},
+          {"name": "前田雄吉", "party": "減税日本", "status": "元職"},
+          {"name": "山下史守朗", "party": "自由民主党", "status": "新人"},
+          {"name": "松田功", "party": "中道改革連合", "status": "前職"},
+          {"name": "福田徹", "party": "国民民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 24,
+      "name": "三重県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "田村憲久", "party": "自由民主党", "status": "前職"},
+          {"name": "出口洋介", "party": "日本共産党", "status": "新人"},
+          {"name": "福森和歌子", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "水谷幸泰", "party": "参政党", "status": "新人"},
+          {"name": "下野幸助", "party": "中道改革連合", "status": "前職"},
+          {"name": "川崎秀人", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "岡田克也", "party": "中道改革連合", "status": "前職"},
+          {"name": "新谷恵", "party": "参政党", "status": "新人"},
+          {"name": "衣笠民子", "party": "日本共産党", "status": "新人"},
+          {"name": "伊藤昌志", "party": "日本保守党", "status": "新人"},
+          {"name": "石原正敬", "party": "自由民主党", "status": "元職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "鈴木英敬", "party": "自由民主党", "status": "前職"},
+          {"name": "藤田大助", "party": "国民民主党", "status": "元職"},
+          {"name": "中川民英", "party": "日本共産党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 25,
+      "name": "滋賀県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "黄野瀬明子", "party": "日本共産党", "status": "新人"},
+          {"name": "大岡敏孝", "party": "自由民主党", "status": "前職"},
+          {"name": "斎藤アレックス", "party": "日本維新の会", "status": "前職"},
+          {"name": "河井昭成", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "岡屋京佑", "party": "日本維新の会", "status": "新人"},
+          {"name": "上野賢一郎", "party": "自由民主党", "status": "前職"},
+          {"name": "平尾道雄", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "伊吹裕", "party": "日本共産党", "status": "新人"},
+          {"name": "北野裕子", "party": "参政党", "status": "前職"},
+          {"name": "早智敬", "party": "中道改革連合", "status": "新人"},
+          {"name": "安持成美", "party": "れいわ新選組", "status": "新人"},
+          {"name": "出路真吾", "party": "日本維新の会", "status": "新人"},
+          {"name": "武村展英", "party": "自由民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 26,
+      "name": "京都府",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "堀場幸子", "party": "チームみらい", "status": "元職"},
+          {"name": "勝目康", "party": "自由民主党", "status": "前職"},
+          {"name": "平竹耕三", "party": "中道改革連合", "status": "新人"},
+          {"name": "谷口青人", "party": "参政党", "status": "新人"},
+          {"name": "桂隆俊", "party": "国民民主党", "status": "新人"},
+          {"name": "鎌野敏徳", "party": "日本共産党", "status": "新人"},
+          {"name": "佐々木隆吏", "party": "日本維新の会", "status": "新人"},
+          {"name": "浜田聡", "party": "諸派", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "藤田洋司", "party": "自由民主党", "status": "新人"},
+          {"name": "辻村千尋", "party": "れいわ新選組", "status": "新人"},
+          {"name": "堀川朗子", "party": "日本共産党", "status": "前職"},
+          {"name": "河野有里子", "party": "中道改革連合", "status": "新人"},
+          {"name": "酒井勇輔", "party": "チームみらい", "status": "新人"},
+          {"name": "前原誠司", "party": "日本維新の会", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "樋口智", "party": "参政党", "status": "新人"},
+          {"name": "木村元紀", "party": "日本維新の会", "status": "新人"},
+          {"name": "西山頌秀", "party": "日本共産党", "status": "新人"},
+          {"name": "繁本護", "party": "自由民主党", "status": "元職"},
+          {"name": "泉健太", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "吉田幸一", "party": "日本共産党", "status": "新人"},
+          {"name": "北神圭朗", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "本田太郎", "party": "自由民主党", "status": "前職"},
+          {"name": "山内健", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "大奈", "party": "参政党", "status": "新人"},
+          {"name": "山井和則", "party": "中道改革連合", "status": "前職"},
+          {"name": "上條亮一", "party": "日本共産党", "status": "新人"},
+          {"name": "園崎弘道", "party": "自由民主党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 14,
+      "name": "神奈川県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "篠原豪", "party": "中道改革連合", "status": "前職"},
+          {"name": "丸尾南都子", "party": "自由民主党", "status": "新人"},
+          {"name": "浅川義治", "party": "日本維新の会", "status": "元職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "柳家東三楼", "party": "中道改革連合", "status": "新人"},
+          {"name": "新田章文", "party": "自由民主党", "status": "新人"},
+          {"name": "平本幸次郎", "party": "参政党", "status": "新人"},
+          {"name": "並木まり子", "party": "日本共産党", "status": "新人"},
+          {"name": "片山智絵", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "横山征吾", "party": "日本共産党", "status": "新人"},
+          {"name": "中村武人", "party": "中道改革連合", "status": "新人"},
+          {"name": "二宮研", "party": "国民民主党", "status": "新人"},
+          {"name": "荻野ミエ", "party": "参政党", "status": "新人"},
+          {"name": "中西健治", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "早稲田夕季", "party": "中道改革連合", "status": "前職"},
+          {"name": "田宮零一郎", "party": "参政党", "status": "新人"},
+          {"name": "永田磨梨奈", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "久坂くにえ", "party": "日本維新の会", "status": "新人"},
+          {"name": "山崎誠", "party": "中道改革連合", "status": "前職"},
+          {"name": "高宮美智子", "party": "日本共産党", "status": "新人"},
+          {"name": "坂井学", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "古川直季", "party": "自由民主党", "status": "前職"},
+          {"name": "青柳陽一郎", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "鈴木馨祐", "party": "自由民主党", "status": "前職"},
+          {"name": "中谷一馬", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 8, "candidates": [
+          {"name": "江田憲司", "party": "中道改革連合", "status": "前職"},
+          {"name": "三谷英弘", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 9, "candidates": [
+          {"name": "笠浩史", "party": "中道改革連合", "status": "前職"},
+          {"name": "赤石博子", "party": "日本共産党", "status": "新人"},
+          {"name": "上原正裕", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 10, "candidates": [
+          {"name": "田中和徳", "party": "自由民主党", "status": "前職"},
+          {"name": "中野智裕", "party": "日本共産党", "status": "新人"},
+          {"name": "山口翔平", "party": "国民民主党", "status": "新人"},
+          {"name": "橋本公夫", "party": "参政党", "status": "新人"},
+          {"name": "金村龍那", "party": "日本維新の会", "status": "前職"}
+        ]},
+        {"number": 11, "candidates": [
+          {"name": "小泉進次郎", "party": "自由民主党", "status": "前職"},
+          {"name": "前林恒平", "party": "参政党", "status": "新人"},
+          {"name": "為壮稔", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 12, "candidates": [
+          {"name": "阿部知子", "party": "中道改革連合", "status": "前職"},
+          {"name": "沼上常生", "party": "日本共産党", "status": "新人"},
+          {"name": "星野剛士", "party": "自由民主党", "status": "前職"},
+          {"name": "菊竹進", "party": "無所属", "status": "新人"}
+        ]},
+        {"number": 13, "candidates": [
+          {"name": "太栄志", "party": "中道改革連合", "status": "前職"},
+          {"name": "丸田康一郎", "party": "自由民主党", "status": "新人"},
+          {"name": "石井匡", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 14, "candidates": [
+          {"name": "先沖仁志", "party": "参政党", "status": "新人"},
+          {"name": "赤間二郎", "party": "自由民主党", "status": "前職"},
+          {"name": "中村圭", "party": "日本共産党", "status": "新人"},
+          {"name": "長友克洋", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 15, "candidates": [
+          {"name": "河野太郎", "party": "自由民主党", "status": "前職"},
+          {"name": "小山善光", "party": "参政党", "status": "新人"},
+          {"name": "三好諒", "party": "れいわ新選組", "status": "新人"},
+          {"name": "佐々木克己", "party": "社会民主党", "status": "新人"}
+        ]},
+        {"number": 16, "candidates": [
+          {"name": "後藤祐一", "party": "中道改革連合", "status": "前職"},
+          {"name": "佐藤主迪", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 17, "candidates": [
+          {"name": "中村太一", "party": "国民民主党", "status": "新人"},
+          {"name": "牧島かれん", "party": "自由民主党", "status": "前職"},
+          {"name": "佐々木奈保美", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 18, "candidates": [
+          {"name": "山際大志郎", "party": "自由民主党", "status": "前職"},
+          {"name": "西岡義高", "party": "国民民主党", "status": "前職"},
+          {"name": "宗野創", "party": "中道改革連合", "status": "前職"},
+          {"name": "八巻陽子", "party": "日本共産党", "status": "新人"},
+          {"name": "藤田修一", "party": "参政党", "status": "新人"},
+          {"name": "横田光弘", "party": "日本維新の会", "status": "新人"}
+        ]},
+        {"number": 19, "candidates": [
+          {"name": "深作ヘスス", "party": "国民民主党", "status": "前職"},
+          {"name": "室井一真", "party": "参政党", "status": "新人"},
+          {"name": "草間剛", "party": "自由民主党", "status": "前職"},
+          {"name": "添田勝", "party": "日本維新の会", "status": "新人"}
+        ]},
+        {"number": 20, "candidates": [
+          {"name": "金子洋一", "party": "日本維新の会", "status": "新人"},
+          {"name": "金沢結衣", "party": "自由民主党", "status": "新人"},
+          {"name": "大塚小百合", "party": "中道改革連合", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 13,
+      "name": "東京都",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "山田美樹", "party": "自由民主党", "status": "元職"},
+            {"name": "海江田万里", "party": "中道改革連合", "status": "前職"},
+            {"name": "吉川里奈", "party": "参政党", "status": "前職"},
+            {"name": "春山明日香", "party": "日本維新の会", "status": "新人"},
+            {"name": "黒田朝陽", "party": "日本共産党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "天野こころ", "party": "諸派", "status": "新人"},
+            {"name": "海江田悠輔", "party": "参政党", "status": "新人"},
+            {"name": "鳩山紀一郎", "party": "国民民主党", "status": "前職"},
+            {"name": "細野真理", "party": "日本共産党", "status": "新人"},
+            {"name": "土橋章宏", "party": "チームみらい", "status": "新人"},
+            {"name": "辻清人", "party": "自由民主党", "status": "前職"},
+            {"name": "今村充", "party": "日本維新の会", "status": "新人"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "石崎徹", "party": "日本維新の会", "status": "元職"},
+            {"name": "石田慎吾", "party": "国民民主党", "status": "新人"},
+            {"name": "阿部祐美子", "party": "中道改革連合", "status": "前職"},
+            {"name": "植木洋貴", "party": "参政党", "status": "新人"},
+            {"name": "石原宏高", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 4,
+          "candidates": [
+            {"name": "井戸正枝", "party": "国民民主党", "status": "元職"},
+            {"name": "嶋悦子", "party": "参政党", "status": "新人"},
+            {"name": "平将明", "party": "自由民主党", "status": "前職"},
+            {"name": "谷川智行", "party": "日本共産党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 5,
+          "candidates": [
+            {"name": "稲葉太郎", "party": "日本維新の会", "status": "新人"},
+            {"name": "桑水流弓紀子", "party": "国民民主党", "status": "新人"},
+            {"name": "手塚仁雄", "party": "中道改革連合", "status": "前職"},
+            {"name": "若宮健嗣", "party": "自由民主党", "status": "元職"},
+            {"name": "松岡登志子", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 6,
+          "candidates": [
+            {"name": "落合貴之", "party": "中道改革連合", "status": "前職"},
+            {"name": "丸山勝己", "party": "国民民主党", "status": "新人"},
+            {"name": "島村直輝", "party": "参政党", "status": "新人"},
+            {"name": "畦元将吾", "party": "自由民主党", "status": "元職"},
+            {"name": "福村康広", "party": "諸派", "status": "新人"}
+          ]
+        },
+        {
+          "number": 7,
+          "candidates": [
+            {"name": "峰島侑也", "party": "チームみらい", "status": "新人"},
+            {"name": "丸川珠代", "party": "自由民主党", "status": "新人"},
+            {"name": "渡辺泰之", "party": "日本維新の会", "status": "新人"},
+            {"name": "松尾明弘", "party": "中道改革連合", "status": "前職"},
+            {"name": "石川友梨香", "party": "参政党", "status": "新人"},
+            {"name": "入江伸子", "party": "国民民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 8,
+          "candidates": [
+            {"name": "森田一成", "party": "国民民主党", "status": "新人"},
+            {"name": "門寛子", "party": "自由民主党", "status": "新人"},
+            {"name": "永井漠", "party": "参政党", "status": "新人"},
+            {"name": "吉田晴美", "party": "中道改革連合", "status": "前職"},
+            {"name": "海保杜久麻", "party": "れいわ新選組", "status": "新人"},
+            {"name": "大谷司郎", "party": "日本保守党", "status": "新人"},
+            {"name": "藤原幸弘", "party": "無所属", "status": "新人"}
+          ]
+        },
+        {
+          "number": 9,
+          "candidates": [
+            {"name": "鈴木文哉", "party": "参政党", "status": "新人"},
+            {"name": "薬師寺道代", "party": "国民民主党", "status": "新人"},
+            {"name": "菅原一秀", "party": "自由民主党", "status": "元職"},
+            {"name": "山岸一生", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 10,
+          "candidates": [
+            {"name": "鈴木隼人", "party": "自由民主党", "status": "前職"},
+            {"name": "梶原みずほ", "party": "国民民主党", "status": "新人"},
+            {"name": "小山徹", "party": "諸派", "status": "新人"},
+            {"name": "鈴木庸介", "party": "中道改革連合", "status": "前職"},
+            {"name": "安田伸", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 11,
+          "candidates": [
+            {"name": "大豆生田実", "party": "日本維新の会", "status": "新人"},
+            {"name": "松方恵美", "party": "参政党", "status": "新人"},
+            {"name": "阿久津幸彦", "party": "中道改革連合", "status": "前職"},
+            {"name": "桑島康文", "party": "諸派", "status": "新人"},
+            {"name": "高沢一基", "party": "国民民主党", "status": "新人"},
+            {"name": "下村博文", "party": "自由民主党", "status": "元職"},
+            {"name": "横手海人", "party": "日本共産党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 12,
+          "candidates": [
+            {"name": "阿部司", "party": "日本維新の会", "status": "前職"},
+            {"name": "久住勇樹", "party": "国民民主党", "status": "新人"},
+            {"name": "黒石裕子", "party": "参政党", "status": "新人"},
+            {"name": "田原聖子", "party": "日本共産党", "status": "新人"},
+            {"name": "高木啓", "party": "自由民主党", "status": "前職"},
+            {"name": "中原翔太", "party": "中道改革連合", "status": "新人"}
+          ]
+        },
+        {
+          "number": 13,
+          "candidates": [
+            {"name": "加地敏子", "party": "参政党", "status": "新人"},
+            {"name": "土田慎", "party": "自由民主党", "status": "前職"},
+            {"name": "沢田真吾", "party": "日本共産党", "status": "新人"},
+            {"name": "森洋介", "party": "国民民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 14,
+          "candidates": [
+            {"name": "長南貴則", "party": "国民民主党", "status": "新人"},
+            {"name": "丹悠", "party": "参政党", "status": "新人"},
+            {"name": "原努", "party": "日本共産党", "status": "新人"},
+            {"name": "松島みどり", "party": "自由民主党", "status": "前職"},
+            {"name": "櫛渕万里", "party": "れいわ新選組", "status": "前職"}
+          ]
+        },
+        {
+          "number": 15,
+          "candidates": [
+            {"name": "酒井菜摘", "party": "中道改革連合", "status": "前職"},
+            {"name": "鈴木佳奈", "party": "参政党", "status": "新人"},
+            {"name": "三次由梨香", "party": "日本維新の会", "status": "新人"},
+            {"name": "深見紗采", "party": "国民民主党", "status": "新人"},
+            {"name": "大空幸星", "party": "自由民主党", "status": "前職"},
+            {"name": "吉野敏明", "party": "減税日本", "status": "新人"}
+          ]
+        },
+        {
+          "number": 16,
+          "candidates": [
+            {"name": "竹内知子", "party": "国民民主党", "status": "新人"},
+            {"name": "村上剛", "party": "参政党", "status": "新人"},
+            {"name": "柴田勝之", "party": "中道改革連合", "status": "前職"},
+            {"name": "大西洋平", "party": "自由民主党", "status": "前職"}
+          ]
+        },
+        {
+          "number": 17,
+          "candidates": [
+            {"name": "反田麻理", "party": "中道改革連合", "status": "新人"},
+            {"name": "平沢勝栄", "party": "自由民主党", "status": "前職"},
+            {"name": "長谷川貴子", "party": "国民民主党", "status": "新人"},
+            {"name": "円より子", "party": "無所属", "status": "前職"},
+            {"name": "杉浦慎一郎", "party": "参政党", "status": "新人"},
+            {"name": "鈴木真志", "party": "諸派", "status": "新人"},
+            {"name": "猪口幸子", "party": "日本維新の会", "status": "前職"}
+          ]
+        },
+        {
+          "number": 18,
+          "candidates": [
+            {"name": "徳永由紀子", "party": "参政党", "status": "新人"},
+            {"name": "松下玲子", "party": "中道改革連合", "status": "前職"},
+            {"name": "福田かおる", "party": "自由民主党", "status": "前職"},
+            {"name": "吉田綾", "party": "諸派", "status": "新人"},
+            {"name": "鈴木佑馬", "party": "国民民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 19,
+          "candidates": [
+            {"name": "諏訪玲子", "party": "国民民主党", "status": "新人"},
+            {"name": "末松義規", "party": "中道改革連合", "status": "前職"},
+            {"name": "松本洋平", "party": "自由民主党", "status": "前職"},
+            {"name": "一ノ瀬陽子", "party": "参政党", "status": "新人"},
+            {"name": "井手重美津子", "party": "日本共産党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 20,
+          "candidates": [
+            {"name": "木原誠二", "party": "自由民主党", "status": "前職"},
+            {"name": "大西健太郎", "party": "国民民主党", "status": "新人"},
+            {"name": "宮本徹", "party": "日本共産党", "status": "元職"},
+            {"name": "掛山茂希", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 21,
+          "candidates": [
+            {"name": "黒田太郎", "party": "国民民主党", "status": "新人"},
+            {"name": "鈴木烈", "party": "中道改革連合", "status": "新人"},
+            {"name": "星野奈美", "party": "参政党", "status": "新人"},
+            {"name": "小田原潔", "party": "自由民主党", "status": "元職"},
+            {"name": "矢田一久", "party": "減税日本", "status": "新人"}
+          ]
+        },
+        {
+          "number": 22,
+          "candidates": [
+            {"name": "山花郁夫", "party": "中道改革連合", "status": "前職"},
+            {"name": "伊藤達也", "party": "自由民主党", "status": "前職"},
+            {"name": "鈴木美香", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 23,
+          "candidates": [
+            {"name": "川松真一朗", "party": "自由民主党", "status": "新人"},
+            {"name": "伊藤俊輔", "party": "中道改革連合", "status": "前職"},
+            {"name": "池川友一", "party": "日本共産党", "status": "新人"},
+            {"name": "舟見裕貴", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 24,
+          "candidates": [
+            {"name": "細屋椋", "party": "国民民主党", "status": "新人"},
+            {"name": "與倉さゆり", "party": "参政党", "status": "新人"},
+            {"name": "深田萌絵", "party": "無所属", "status": "新人"},
+            {"name": "萩生田光一", "party": "自由民主党", "status": "前職"},
+            {"name": "細貝悠", "party": "中道改革連合", "status": "新人"}
+          ]
+        },
+        {
+          "number": 25,
+          "candidates": [
+            {"name": "依田花蓮", "party": "中道改革連合", "status": "新人"},
+            {"name": "木村奈美", "party": "参政党", "status": "新人"},
+            {"name": "宗像久敬", "party": "国民民主党", "status": "新人"},
+            {"name": "井上信治", "party": "自由民主党", "status": "前職"},
+            {"name": "宮崎太朗", "party": "日本維新の会", "status": "新人"}
+          ]
+        },
+        {
+          "number": 26,
+          "candidates": [
+            {"name": "松井佳苗子", "party": "日本共産党", "status": "新人"},
+            {"name": "坂元悠紀", "party": "国民民主党", "status": "新人"},
+            {"name": "松原仁", "party": "無所属", "status": "前職"},
+            {"name": "宇佐美登", "party": "チームみらい", "status": "元職"},
+            {"name": "今岡植", "party": "自由民主党", "status": "新人"},
+            {"name": "菅沼桂子", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 27,
+          "candidates": [
+            {"name": "長妻昭", "party": "中道改革連合", "status": "前職"},
+            {"name": "小笠原愛子", "party": "参政党", "status": "新人"},
+            {"name": "黒崎祐一", "party": "自由民主党", "status": "新人"},
+            {"name": "須山卓知", "party": "国民民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 28,
+          "candidates": [
+            {"name": "村松一希", "party": "参政党", "status": "新人"},
+            {"name": "橋口奈保", "party": "日本維新の会", "status": "新人"},
+            {"name": "安藤高夫", "party": "自由民主党", "status": "前職"},
+            {"name": "高野直美", "party": "日本共産党", "status": "新人"},
+            {"name": "高松智之", "party": "中道改革連合", "status": "前職"},
+            {"name": "三沢宏明", "party": "国民民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 29,
+          "candidates": [
+            {"name": "堀川哲郎", "party": "参政党", "status": "新人"},
+            {"name": "木村剛司", "party": "中道改革連合", "status": "元職"},
+            {"name": "鈴木賢一", "party": "日本共産党", "status": "新人"},
+            {"name": "長沢興祐", "party": "自由民主党", "status": "新人"},
+            {"name": "樽井良和", "party": "国民民主党", "status": "元職"},
+            {"name": "小坂英二", "party": "日本保守党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 30,
+          "candidates": [
+            {"name": "寿玲子", "party": "参政党", "status": "新人"},
+            {"name": "五十嵐衣里", "party": "中道改革連合", "status": "前職"},
+            {"name": "川上竜世", "party": "国民民主党", "status": "新人"},
+            {"name": "長島昭久", "party": "自由民主党", "status": "前職"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "大阪府",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "井上英孝", "party": "日本維新の会", "status": "前職"},
+            {"name": "竹内祥倫", "party": "日本共産党", "status": "新人"},
+            {"name": "中村由紀", "party": "参政党", "status": "新人"},
+            {"name": "塩野智郎", "party": "国民民主党", "status": "新人"},
+            {"name": "大西宏幸", "party": "自由民主党", "status": "元職"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "小川陽太", "party": "日本共産党", "status": "新人"},
+            {"name": "石橋篤史", "party": "参政党", "status": "新人"},
+            {"name": "守島正", "party": "無所属", "status": "前職"},
+            {"name": "高見亮", "party": "日本維新の会", "status": "新人"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "柳本顕", "party": "自由民主党", "status": "元職"},
+            {"name": "東徹", "party": "日本維新の会", "status": "前職"},
+            {"name": "渡部結", "party": "日本共産党", "status": "新人"},
+            {"name": "山室貴史", "party": "参政党", "status": "新人"},
+            {"name": "宇都宮優子", "party": "中道改革連合", "status": "新人"}
+          ]
+        },
+        {
+          "number": 4,
+          "candidates": [
+            {"name": "中山泰秀", "party": "自由民主党", "status": "元職"},
+            {"name": "橋口和矢", "party": "諸派", "status": "新人"},
+            {"name": "藤田美季", "party": "参政党", "status": "新人"},
+            {"name": "岡本忠志", "party": "国民民主党", "status": "新人"},
+            {"name": "山田みのり", "party": "日本共産党", "status": "新人"},
+            {"name": "美延映夫", "party": "日本維新の会", "status": "前職"}
+          ]
+        },
+        {
+          "number": 5,
+          "candidates": [
+            {"name": "梅村聡", "party": "日本維新の会", "status": "前職"},
+            {"name": "大石晃子", "party": "れいわ新選組", "status": "前職"},
+            {"name": "前田英倫", "party": "国民民主党", "status": "新人"},
+            {"name": "松山恵子", "party": "参政党", "status": "新人"},
+            {"name": "湊隆介", "party": "日本共産党", "status": "新人"},
+            {"name": "杉田水脈", "party": "自由民主党", "status": "元職"}
+          ]
+        },
+        {
+          "number": 6,
+          "candidates": [
+            {"name": "亀井淳", "party": "日本共産党", "status": "新人"},
+            {"name": "西田薫", "party": "日本維新の会", "status": "前職"},
+            {"name": "月足舞子", "party": "参政党", "status": "新人"},
+            {"name": "永井正史", "party": "自由民主党", "status": "新人"},
+            {"name": "阪本洋三", "party": "中道改革連合", "status": "新人"}
+          ]
+        },
+        {
+          "number": 7,
+          "candidates": [
+            {"name": "川添健真", "party": "日本共産党", "status": "新人"},
+            {"name": "石川勝", "party": "参政党", "status": "新人"},
+            {"name": "奥下剛光", "party": "日本維新の会", "status": "前職"},
+            {"name": "渡嘉敷奈緒美", "party": "自由民主党", "status": "元職"}
+          ]
+        },
+        {
+          "number": 8,
+          "candidates": [
+            {"name": "平川節代", "party": "日本共産党", "status": "新人"},
+            {"name": "高麗啓一郎", "party": "自由民主党", "status": "新人"},
+            {"name": "佐藤潤", "party": "国民民主党", "status": "新人"},
+            {"name": "漆間譲司", "party": "日本維新の会", "status": "前職"},
+            {"name": "榊原美礼", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 9,
+          "candidates": [
+            {"name": "西尾慧吾", "party": "社会民主党", "status": "新人"},
+            {"name": "萩原佳", "party": "日本維新の会", "status": "前職"},
+            {"name": "東田淳平", "party": "自由民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 10,
+          "candidates": [
+            {"name": "池下卓", "party": "日本維新の会", "status": "前職"},
+            {"name": "尾辻かな子", "party": "中道改革連合", "status": "前職"},
+            {"name": "加納陽之助", "party": "自由民主党", "status": "新人"},
+            {"name": "井上誠也", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 11,
+          "candidates": [
+            {"name": "山岡智美", "party": "参政党", "status": "新人"},
+            {"name": "村上賀厚", "party": "中道改革連合", "status": "新人"},
+            {"name": "松本直高", "party": "自由民主党", "status": "新人"},
+            {"name": "中司宏", "party": "日本維新の会", "status": "前職"},
+            {"name": "北尾学", "party": "日本共産党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 12,
+          "candidates": [
+            {"name": "太田徹", "party": "日本共産党", "status": "新人"},
+            {"name": "藤田文武", "party": "日本維新の会", "status": "前職"},
+            {"name": "樽床伸二", "party": "中道改革連合", "status": "元職"},
+            {"name": "北川晋平", "party": "自由民主党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 13,
+          "candidates": [
+            {"name": "宗清皇一", "party": "自由民主党", "status": "元職"},
+            {"name": "宝井晃美", "party": "日本共産党", "status": "新人"},
+            {"name": "八幡愛", "party": "れいわ新選組", "status": "前職"},
+            {"name": "本多平直", "party": "中道改革連合", "status": "元職"},
+            {"name": "岩谷良平", "party": "日本維新の会", "status": "前職"},
+            {"name": "立岡昭是", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 14,
+          "candidates": [
+            {"name": "内藤耕一", "party": "日本共産党", "status": "新人"},
+            {"name": "尾立源幸", "party": "自由民主党", "status": "新人"},
+            {"name": "青柳仁士", "party": "日本維新の会", "status": "前職"}
+          ]
+        },
+        {
+          "number": 15,
+          "candidates": [
+            {"name": "島田智明", "party": "自由民主党", "status": "前職"},
+            {"name": "平山貴士", "party": "日本共産党", "status": "新人"},
+            {"name": "浦野靖人", "party": "日本維新の会", "status": "前職"}
+          ]
+        },
+        {
+          "number": 16,
+          "candidates": [
+            {"name": "葉田治央", "party": "自由民主党", "status": "新人"},
+            {"name": "黒田征樹", "party": "日本維新の会", "status": "前職"},
+            {"name": "森山浩行", "party": "中道改革連合", "status": "前職"},
+            {"name": "池上和日子", "party": "参政党", "status": "新人"}
+          ]
+        },
+        {
+          "number": 17,
+          "candidates": [
+            {"name": "井上光吉", "party": "日本共産党", "status": "新人"},
+            {"name": "東本和美", "party": "参政党", "status": "新人"},
+            {"name": "信貴麻美", "party": "自由民主党", "status": "新人"},
+            {"name": "馬場伸幸", "party": "日本維新の会", "status": "前職"}
+          ]
+        },
+        {
+          "number": 18,
+          "candidates": [
+            {"name": "馬場英樹", "party": "日本共産党", "status": "新人"},
+            {"name": "内田隆嗣", "party": "自由民主党", "status": "新人"},
+            {"name": "遠藤敬", "party": "日本維新の会", "status": "前職"}
+          ]
+        },
+        {
+          "number": 19,
+          "candidates": [
+            {"name": "谷川とむ", "party": "自由民主党", "status": "元職"},
+            {"name": "北村みき", "party": "日本共産党", "status": "新人"},
+            {"name": "松岡能礼", "party": "参政党", "status": "新人"},
+            {"name": "小羽根正代", "party": "中道改革連合", "status": "新人"},
+            {"name": "伊東信久", "party": "日本維新の会", "status": "前職"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "兵庫県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "藤末浩美", "party": "日本共産党", "status": "新人"},
+          {"name": "原弥彦", "party": "参政党", "status": "新人"},
+          {"name": "井坂信彦", "party": "中道改革連合", "status": "前職"},
+          {"name": "盛山正仁", "party": "自由民主党", "status": "元職"},
+          {"name": "一谷勇一郎", "party": "日本維新の会", "status": "元職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "井村弘子", "party": "日本共産党", "status": "新人"},
+          {"name": "船川治郎", "party": "中道改革連合", "status": "新人"},
+          {"name": "阿部圭史", "party": "日本維新の会", "status": "前職"},
+          {"name": "坊恭寿", "party": "無所属", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "向山好一", "party": "国民民主党", "status": "前職"},
+          {"name": "加藤健二", "party": "日本共産党", "status": "新人"},
+          {"name": "関芳弘", "party": "自由民主党", "status": "前職"},
+          {"name": "和田有一朗", "party": "日本維新の会", "status": "前職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "日比優子", "party": "日本共産党", "status": "新人"},
+          {"name": "中山高志", "party": "中道改革連合", "status": "新人"},
+          {"name": "藤井比早之", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "遠藤良太", "party": "日本維新の会", "status": "元職"},
+          {"name": "谷公一", "party": "自由民主党", "status": "前職"},
+          {"name": "川戸康嗣", "party": "中道改革連合", "status": "新人"},
+          {"name": "村岡峰男", "party": "日本共産党", "status": "新人"},
+          {"name": "高橋秀彰", "party": "諸派", "status": "新人"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "谷浩一郎", "party": "参政党", "status": "新人"},
+          {"name": "吉見秋彦", "party": "日本共産党", "status": "新人"},
+          {"name": "市村浩一郎", "party": "日本維新の会", "status": "前職"},
+          {"name": "大串正樹", "party": "自由民主党", "status": "前職"},
+          {"name": "桜井周", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "山田賢司", "party": "自由民主党", "status": "前職"},
+          {"name": "酒井遼", "party": "参政党", "status": "新人"},
+          {"name": "平野貞雄", "party": "日本共産党", "status": "新人"},
+          {"name": "岡田悟", "party": "中道改革連合", "status": "前職"},
+          {"name": "三木圭恵", "party": "日本維新の会", "status": "前職"}
+        ]},
+        {"number": 8, "candidates": [
+          {"name": "青山繁晴", "party": "自由民主党", "status": "新人"},
+          {"name": "弘川欣絵", "party": "中道改革連合", "status": "新人"},
+          {"name": "板東正恵", "party": "日本共産党", "status": "新人"},
+          {"name": "徳安淳子", "party": "日本維新の会", "status": "前職"},
+          {"name": "長谷川羽衣子", "party": "れいわ新選組", "status": "新人"}
+        ]},
+        {"number": 9, "candidates": [
+          {"name": "山寺崇仁", "party": "参政党", "status": "新人"},
+          {"name": "西村康稔", "party": "自由民主党", "status": "前職"},
+          {"name": "橋本慧悟", "party": "中道改革連合", "status": "前職"},
+          {"name": "伊藤和貴", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 10, "candidates": [
+          {"name": "渡海紀三朗", "party": "自由民主党", "status": "前職"},
+          {"name": "藤原誠也", "party": "参政党", "status": "新人"},
+          {"name": "奥田芙美代", "party": "日本共産党", "status": "新人"},
+          {"name": "隠樹圭子", "party": "中道改革連合", "status": "新人"},
+          {"name": "掘井健智", "party": "日本維新の会", "status": "元職"}
+        ]},
+        {"number": 11, "candidates": [
+          {"name": "苦瓜一成", "party": "日本共産党", "status": "新人"},
+          {"name": "山下聖", "party": "参政党", "status": "新人"},
+          {"name": "住吉寛紀", "party": "日本維新の会", "status": "元職"},
+          {"name": "中原立貴", "party": "国民民主党", "status": "新人"},
+          {"name": "山田基靖", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 12, "candidates": [
+          {"name": "池畑浩太朗", "party": "日本維新の会", "status": "前職"},
+          {"name": "山口壮", "party": "自由民主党", "status": "前職"},
+          {"name": "太田清幸", "party": "日本共産党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 29,
+      "name": "奈良県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "小林茂樹", "party": "自由民主党", "status": "前職"},
+          {"name": "谷川和広", "party": "日本共産党", "status": "新人"},
+          {"name": "馬淵澄夫", "party": "中道改革連合", "status": "前職"},
+          {"name": "黒川洋司", "party": "参政党", "status": "新人"},
+          {"name": "杉本葵", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "高市早苗", "party": "自由民主党", "status": "前職"},
+          {"name": "池田英子", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "太田敦", "party": "日本共産党", "status": "新人"},
+          {"name": "原山大亮", "party": "日本維新の会", "status": "新人"},
+          {"name": "八木宏昌", "party": "無所属", "status": "新人"},
+          {"name": "田野瀬太道", "party": "自由民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 30,
+      "name": "和歌山県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "山本大地", "party": "自由民主党", "status": "前職"},
+          {"name": "林元政子", "party": "参政党", "status": "新人"},
+          {"name": "前久", "party": "日本共産党", "status": "新人"},
+          {"name": "要友紀子", "party": "中道改革連合", "status": "新人"},
+          {"name": "林佑美", "party": "国民民主党", "status": "前職"},
+          {"name": "浦平美博", "party": "日本維新の会", "status": "新人"},
+          {"name": "正司武", "party": "諸派", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "世耕弘成", "party": "無所属", "status": "前職"},
+          {"name": "畑野良弘", "party": "日本共産党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 31,
+      "name": "鳥取県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "塚田成幸", "party": "日本共産党", "status": "新人"},
+          {"name": "豊哲也", "party": "参政党", "status": "新人"},
+          {"name": "谷川裕美", "party": "国民民主党", "status": "新人"},
+          {"name": "石破茂", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "福住英行", "party": "日本共産党", "status": "新人"},
+          {"name": "湯原俊二", "party": "中道改革連合", "status": "元職"},
+          {"name": "赤沢亮正", "party": "自由民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 32,
+      "name": "島根県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "亀井亜紀子", "party": "中道改革連合", "status": "前職"},
+          {"name": "伊藤令治", "party": "参政党", "status": "新人"},
+          {"name": "室穂えり子", "party": "日本共産党", "status": "新人"},
+          {"name": "高階恵美子", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "倉井克行", "party": "参政党", "status": "新人"},
+          {"name": "大塚聡子", "party": "中道改革連合", "status": "新人"},
+          {"name": "高見康裕", "party": "自由民主党", "status": "前職"},
+          {"name": "亀谷優子", "party": "日本共産党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 33,
+      "name": "岡山県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "山本安音", "party": "参政党", "status": "新人"},
+          {"name": "住寄聡美", "party": "日本共産党", "status": "新人"},
+          {"name": "原紘志", "party": "国民民主党", "status": "新人"},
+          {"name": "原田謙介", "party": "中道改革連合", "status": "新人"},
+          {"name": "逢沢一郎", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "山下貴司", "party": "自由民主党", "status": "前職"},
+          {"name": "余江雪央", "party": "日本共産党", "status": "新人"},
+          {"name": "津村啓介", "party": "中道改革連合", "status": "前職"},
+          {"name": "徳永多真美", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "加藤勝信", "party": "自由民主党", "status": "前職"},
+          {"name": "原田亜希子", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "橋本岳", "party": "自由民主党", "status": "元職"},
+          {"name": "柚木道義", "party": "中道改革連合", "status": "前職"},
+          {"name": "三宅沙侑美", "party": "国民民主党", "status": "新人"},
+          {"name": "垣内雄一", "party": "日本共産党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 34,
+      "name": "広島県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "山田肇", "party": "参政党", "status": "新人"},
+          {"name": "産原稔文", "party": "無所属", "status": "新人"},
+          {"name": "川田海栄", "party": "中道改革連合", "status": "新人"},
+          {"name": "中原剛", "party": "日本共産党", "status": "新人"},
+          {"name": "岸田文雄", "party": "自由民主党", "status": "前職"},
+          {"name": "黒木貞彦", "party": "無所属", "status": "新人"},
+          {"name": "楾大樹", "party": "れいわ新選組", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "平口洋", "party": "自由民主党", "status": "前職"},
+          {"name": "佐藤由紀子", "party": "参政党", "status": "新人"},
+          {"name": "福田玄", "party": "国民民主党", "status": "前職"},
+          {"name": "岡田博美", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "玉田憲勲", "party": "無所属", "status": "新人"},
+          {"name": "東克哉", "party": "中道改革連合", "status": "前職"},
+          {"name": "田中淳子", "party": "参政党", "status": "新人"},
+          {"name": "石橋林太郎", "party": "自由民主党", "status": "前職"},
+          {"name": "高松史子", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "新谷正義", "party": "自由民主党", "status": "前職"},
+          {"name": "空本誠喜", "party": "日本維新の会", "status": "前職"},
+          {"name": "鍋島勢理", "party": "国民民主党", "status": "新人"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "山本深", "party": "自由民主党", "status": "新人"},
+          {"name": "佐藤公治", "party": "中道改革連合", "status": "前職"},
+          {"name": "猪原真弓", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "高木武志", "party": "日本共産党", "status": "新人"},
+          {"name": "小林史明", "party": "自由民主党", "status": "前職"},
+          {"name": "はたともこ", "party": "中道改革連合", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 35,
+      "name": "山口県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "山崎珠江", "party": "参政党", "status": "新人"},
+          {"name": "野田陽志", "party": "国民民主党", "status": "新人"},
+          {"name": "高村正大", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "平岡秀夫", "party": "中道改革連合", "status": "前職"},
+          {"name": "岸信千世", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "林芳正", "party": "自由民主党", "status": "前職"},
+          {"name": "篠田知宏", "party": "中道改革連合", "status": "新人"},
+          {"name": "伊藤博文", "party": "日本維新の会", "status": "新人"},
+          {"name": "吹上政子", "party": "日本共産党", "status": "新人"},
+          {"name": "島村薫", "party": "参政党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 36,
+      "name": "徳島県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "吉田知代", "party": "日本維新の会", "status": "元職"},
+          {"name": "仁木博文", "party": "自由民主党", "status": "前職"},
+          {"name": "高橋永", "party": "中道改革連合", "status": "前職"},
+          {"name": "亀井千春", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "山口俊一", "party": "自由民主党", "status": "前職"},
+          {"name": "浜共生", "party": "日本共産党", "status": "新人"},
+          {"name": "飯泉嘉門", "party": "国民民主党", "status": "新人"},
+          {"name": "北島一人", "party": "無所属", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 37,
+      "name": "香川県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "小川淳也", "party": "中道改革連合", "status": "前職"},
+          {"name": "平井卓也", "party": "自由民主党", "status": "前職"},
+          {"name": "道川和樹", "party": "参政党", "status": "新人"},
+          {"name": "長尾真希", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "玉木雄一郎", "party": "国民民主党", "status": "前職"},
+          {"name": "瀬戸隆一", "party": "自由民主党", "status": "前職"},
+          {"name": "秋山友理子", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "川崎智光", "party": "国民民主党", "status": "新人"},
+          {"name": "大野敬太郎", "party": "自由民主党", "status": "前職"},
+          {"name": "細川修平", "party": "日本維新の会", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 38,
+      "name": "愛媛県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "篠藤愛", "party": "参政党", "status": "新人"},
+          {"name": "塩崎彰久", "party": "自由民主党", "status": "前職"},
+          {"name": "和田宰", "party": "日本共産党", "status": "新人"},
+          {"name": "石井智恵", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "井原巧", "party": "自由民主党", "status": "元職"},
+          {"name": "原田慎太郎", "party": "参政党", "status": "新人"},
+          {"name": "白石洋一", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "長谷川淳二", "party": "自由民主党", "status": "前職"},
+          {"name": "萩原旭人", "party": "中道改革連合", "status": "新人"},
+          {"name": "西井直人", "party": "日本共産党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 39,
+      "name": "高知県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "金城幹泰", "party": "参政党", "status": "新人"},
+          {"name": "中谷元", "party": "自由民主党", "status": "前職"},
+          {"name": "田所裕介", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "浜川百合子", "party": "日本共産党", "status": "新人"},
+          {"name": "尾崎正直", "party": "自由民主党", "status": "前職"},
+          {"name": "前田強", "party": "国民民主党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 40,
+      "name": "福岡県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "井上貴博", "party": "自由民主党", "status": "前職"},
+          {"name": "岩本義孝", "party": "日本共産党", "status": "新人"},
+          {"name": "山本剛正", "party": "日本維新の会", "status": "元職"},
+          {"name": "丸尾圭祐", "party": "中道改革連合", "status": "前職"},
+          {"name": "吉富景子", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "貫洞基裕", "party": "日本共産党", "status": "新人"},
+          {"name": "鬼木誠", "party": "自由民主党", "status": "前職"},
+          {"name": "稲富修二", "party": "中道改革連合", "status": "前職"},
+          {"name": "木下敏之", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "原賀瞳", "party": "日本共産党", "status": "新人"},
+          {"name": "仁戸田元気", "party": "中道改革連合", "status": "新人"},
+          {"name": "古賀篤", "party": "自由民主党", "status": "前職"},
+          {"name": "天野浩", "party": "日本維新の会", "status": "新人"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "許斐亮太郎", "party": "国民民主党", "status": "前職"},
+          {"name": "原田祐一", "party": "参政党", "status": "新人"},
+          {"name": "宮内秀樹", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 5, "candidates": [
+          {"name": "川元健一", "party": "国民民主党", "status": "新人"},
+          {"name": "岡部吉高", "party": "参政党", "status": "新人"},
+          {"name": "栗原渉", "party": "自由民主党", "status": "前職"},
+          {"name": "那須敬子", "party": "社会民主党", "status": "新人"}
+        ]},
+        {"number": 6, "candidates": [
+          {"name": "近藤雅彦", "party": "国民民主党", "status": "新人"},
+          {"name": "鳩山二郎", "party": "自由民主党", "status": "前職"},
+          {"name": "河野一弘", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 7, "candidates": [
+          {"name": "藤丸敏", "party": "自由民主党", "status": "前職"},
+          {"name": "亀田晃尚", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 8, "candidates": [
+          {"name": "麻生太郎", "party": "自由民主党", "status": "前職"},
+          {"name": "森田俊文", "party": "無所属", "status": "新人"},
+          {"name": "沖園理恵", "party": "れいわ新選組", "status": "新人"}
+        ]},
+        {"number": 9, "candidates": [
+          {"name": "山田博敏", "party": "日本共産党", "status": "新人"},
+          {"name": "三原朝利", "party": "自由民主党", "status": "新人"},
+          {"name": "大塚弘尊", "party": "国民民主党", "status": "新人"},
+          {"name": "緒方林太郎", "party": "無所属", "status": "前職"}
+        ]},
+        {"number": 10, "candidates": [
+          {"name": "大石仁人", "party": "無所属", "status": "新人"},
+          {"name": "熊本要", "party": "参政党", "status": "新人"},
+          {"name": "城井崇", "party": "中道改革連合", "status": "前職"},
+          {"name": "古賀邦俊", "party": "日本共産党", "status": "新人"},
+          {"name": "吉村悠", "party": "自由民主党", "status": "新人"}
+        ]},
+        {"number": 11, "candidates": [
+          {"name": "辻智之", "party": "中道改革連合", "status": "新人"},
+          {"name": "武田良太", "party": "自由民主党", "status": "元職"},
+          {"name": "志岐玲子", "party": "社会民主党", "status": "新人"},
+          {"name": "井上直生", "party": "参政党", "status": "新人"},
+          {"name": "村上智信", "party": "日本維新の会", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 41,
+      "name": "佐賀県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "原口一博", "party": "減税日本", "status": "前職"},
+          {"name": "重松貴美", "party": "参政党", "status": "新人"},
+          {"name": "岩田和親", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "古川康", "party": "自由民主党", "status": "前職"},
+          {"name": "大串博志", "party": "中道改革連合", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 42,
+      "name": "長崎県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "内田隆英", "party": "日本共産党", "status": "新人"},
+          {"name": "松石宗平", "party": "参政党", "status": "新人"},
+          {"name": "浅田真澄美", "party": "自由民主党", "status": "新人"},
+          {"name": "山田博司", "party": "日本維新の会", "status": "新人"},
+          {"name": "西岡秀子", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "山田勝彦", "party": "中道改革連合", "status": "前職"},
+          {"name": "高木聡子", "party": "参政党", "status": "新人"},
+          {"name": "加藤竜祥", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "金子容三", "party": "自由民主党", "status": "前職"},
+          {"name": "田崎耕太", "party": "中道改革連合", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 43,
+      "name": "熊本県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "山口盛太郎", "party": "参政党", "status": "新人"},
+          {"name": "木原稔", "party": "自由民主党", "status": "前職"},
+          {"name": "鎌田聡", "party": "中道改革連合", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "益田牧子", "party": "日本共産党", "status": "新人"},
+          {"name": "西野大輔", "party": "自由民主党", "status": "前職"},
+          {"name": "前田知則", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "坂本哲志", "party": "自由民主党", "status": "前職"},
+          {"name": "橋村里香", "party": "社会民主党", "status": "新人"},
+          {"name": "鶴田和芳", "party": "参政党", "status": "新人"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "上田至", "party": "国民民主党", "status": "新人"},
+          {"name": "矢上雅義", "party": "日本維新の会", "status": "元職"},
+          {"name": "上田貴嗣", "party": "参政党", "status": "新人"},
+          {"name": "本村久美子", "party": "日本共産党", "status": "新人"},
+          {"name": "金子恭之", "party": "自由民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 44,
+      "name": "大分県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "堤淳太", "party": "国民民主党", "status": "新人"},
+          {"name": "衛藤博昭", "party": "自由民主党", "status": "新人"},
+          {"name": "野中しんすけ", "party": "参政党", "status": "新人"},
+          {"name": "吉良州司", "party": "無所属", "status": "前職"},
+          {"name": "山下魁", "party": "日本共産党", "status": "新人"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "広瀬建", "party": "自由民主党", "status": "前職"},
+          {"name": "吉川元", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "野中貴恵", "party": "参政党", "status": "新人"},
+          {"name": "岩屋毅", "party": "自由民主党", "status": "前職"},
+          {"name": "小林華弥子", "party": "中道改革連合", "status": "新人"},
+          {"name": "平野雨龍", "party": "無所属", "status": "新人"},
+          {"name": "岩永京子", "party": "日本保守党", "status": "新人"}
+        ]}
+      ]
+    },
+    {
+      "id": 45,
+      "name": "宮崎県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "横田朋大", "party": "日本維新の会", "status": "新人"},
+          {"name": "滋井邦晃", "party": "参政党", "status": "新人"},
+          {"name": "武井俊輔", "party": "自由民主党", "status": "元職"},
+          {"name": "渡辺創", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "白江好友", "party": "日本共産党", "status": "新人"},
+          {"name": "江藤拓", "party": "自由民主党", "status": "前職"},
+          {"name": "長友慎治", "party": "国民民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "高瀬大介", "party": "参政党", "status": "新人"},
+          {"name": "古川禎久", "party": "自由民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 46,
+      "name": "鹿児島県",
+      "districts": [
+        {"number": 1, "candidates": [
+          {"name": "宮路拓馬", "party": "自由民主党", "status": "前職"},
+          {"name": "牧野俊一", "party": "参政党", "status": "新人"},
+          {"name": "小山慎之介", "party": "日本共産党", "status": "新人"},
+          {"name": "川内博史", "party": "中道改革連合", "status": "前職"}
+        ]},
+        {"number": 2, "candidates": [
+          {"name": "高橋徳美", "party": "参政党", "status": "新人"},
+          {"name": "松崎真琴", "party": "日本共産党", "status": "新人"},
+          {"name": "三反園訓", "party": "自由民主党", "status": "前職"}
+        ]},
+        {"number": 3, "candidates": [
+          {"name": "野間健", "party": "中道改革連合", "status": "前職"},
+          {"name": "小里泰弘", "party": "自由民主党", "status": "元職"}
+        ]},
+        {"number": 4, "candidates": [
+          {"name": "桐原郁生", "party": "参政党", "status": "新人"},
+          {"name": "中村寿", "party": "国民民主党", "status": "新人"},
+          {"name": "伊藤周平", "party": "社会民主党", "status": "新人"},
+          {"name": "森山裕", "party": "自由民主党", "status": "前職"}
+        ]}
+      ]
+    },
+    {
+      "id": 47,
+      "name": "沖縄県",
+      "districts": [
+        {
+          "number": 1,
+          "candidates": [
+            {"name": "山川泰博", "party": "日本維新の会", "status": "新人"},
+            {"name": "和田知久", "party": "参政党", "status": "新人"},
+            {"name": "赤嶺政賢", "party": "日本共産党", "status": "前職"},
+            {"name": "国場幸之助", "party": "自由民主党", "status": "前職"},
+            {"name": "中島万穂", "party": "無所属", "status": "新人"}
+          ]
+        },
+        {
+          "number": 2,
+          "candidates": [
+            {"name": "瑞慶覧長敏", "party": "社会民主党", "status": "元職"},
+            {"name": "新垣邦男", "party": "中道改革連合", "status": "前職"},
+            {"name": "宮崎政久", "party": "自由民主党", "status": "前職"},
+            {"name": "吉田悠里", "party": "参政党", "status": "新人"},
+            {"name": "比嘉隆", "party": "無所属", "status": "新人"}
+          ]
+        },
+        {
+          "number": 3,
+          "candidates": [
+            {"name": "仲間暁子", "party": "参政党", "status": "新人"},
+            {"name": "島尻安伊子", "party": "自由民主党", "status": "前職"},
+            {"name": "屋良朝博", "party": "中道改革連合", "status": "前職"}
+          ]
+        },
+        {
+          "number": 4,
+          "candidates": [
+            {"name": "崎枝裕次", "party": "国民民主党", "status": "新人"},
+            {"name": "西銘恒三郎", "party": "自由民主党", "status": "前職"},
+            {"name": "砥板芳行", "party": "中道改革連合", "status": "新人"},
+            {"name": "山川仁", "party": "れいわ新選組", "status": "前職"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:vote.horiemon.ai)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout 10 npm run dev:*)",
+      "Bash(timeout 8 npm run dev:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:news.web.nhk)",
+      "WebFetch(domain:go2senkyo.com)",
+      "WebFetch(domain:www.asahi.com)",
+      "WebFetch(domain:news.web.nhk.or.jp)",
+      "WebFetch(domain:www.jiji.com)",
+      "WebFetch(domain:www.kanaloco.jp)",
+      "Bash(node:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: AI選挙予測システム\n\n- 日本地図上に都道府県別の優勢政党を可視化\n- Google Gemini APIによる選挙予測生成\n- Perplexity APIによるニュース収集\n- ファイルベースのキャッシュシステム\n- キーボードナビゲーション対応\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
