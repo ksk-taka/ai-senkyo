@@ -10,6 +10,7 @@ interface PrefecturePrediction {
   prefectureId: number;
   leadingParty: string;
   confidence: "high" | "medium" | "low";
+  commentary?: string;
 }
 
 interface JapanMapProps {
@@ -85,14 +86,25 @@ export default function JapanMap({
 
           let content = d.properties.nam_ja || prefData?.name || "不明";
           if (prediction) {
-            content += `\n優勢: ${prediction.leadingParty}`;
-            content += `\n確信度: ${
-              prediction.confidence === "high"
-                ? "高"
-                : prediction.confidence === "medium"
-                ? "中"
-                : "低"
-            }`;
+            if (prediction.leadingParty) {
+              content += `\n優勢: ${prediction.leadingParty}`;
+              content += `\n確信度: ${
+                prediction.confidence === "high"
+                  ? "高"
+                  : prediction.confidence === "medium"
+                  ? "中"
+                  : "低"
+              }`;
+              if (prediction.commentary) {
+                // コメントが長い場合は切り詰め
+                const shortComment = prediction.commentary.length > 80
+                  ? prediction.commentary.substring(0, 77) + "..."
+                  : prediction.commentary;
+                content += `\n\n📝 ${shortComment}`;
+              }
+            } else {
+              content += `\n（更新待ち）`;
+            }
           }
 
           setTooltip({

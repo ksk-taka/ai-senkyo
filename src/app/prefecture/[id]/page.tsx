@@ -3,7 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import { useState, useEffect, useCallback } from "react";
 import { prefectures } from "@/lib/data/districts";
-import { parties } from "@/lib/data/parties";
+import { parties, getPartyByName } from "@/lib/data/parties";
 import ConfidenceBadge from "@/components/ConfidenceBadge";
 
 interface Candidate {
@@ -28,6 +28,7 @@ interface PrefecturePrediction {
   confidence: "high" | "medium" | "low";
   seatPrediction: { party: string; seats: number }[];
   districts?: DistrictPrediction[];
+  commentary?: string;
 }
 
 export default function PrefecturePage() {
@@ -40,6 +41,12 @@ export default function PrefecturePage() {
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState<string>("");
   const [error, setError] = useState<string | null>(null);
+
+  // ニュース関連
+  const [newsContent, setNewsContent] = useState<string | null>(null);
+  const [newsSources, setNewsSources] = useState<string[]>([]);
+  const [newsCachedAt, setNewsCachedAt] = useState<string | null>(null);
+  const [showNews, setShowNews] = useState(false);
 
   // キャッシュから読み込み（APIを呼ばない）
   const loadFromCache = useCallback(async () => {
@@ -102,9 +109,28 @@ export default function PrefecturePage() {
     }
   };
 
+  // ニュースキャッシュを読み込み
+  const loadNews = useCallback(async () => {
+    if (!prefecture) return;
+    try {
+      const response = await fetch(`/api/predict?getNews=${encodeURIComponent(prefecture.name)}`);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.success && data.content) {
+          setNewsContent(data.content);
+          setNewsSources(data.sources || []);
+          setNewsCachedAt(data.cachedAt ? new Date(data.cachedAt).toLocaleString("ja-JP") : null);
+        }
+      }
+    } catch (err) {
+      console.error("Failed to load news:", err);
+    }
+  }, [prefecture]);
+
   useEffect(() => {
     loadFromCache(); // 初回はキャッシュから読み込み（即座に表示）
-  }, [loadFromCache]);
+    loadNews(); // ニュースも読み込み
+  }, [loadFromCache, loadNews]);
 
   // キーボードナビゲーション（← → キーで前後の都道府県に移動）
   useEffect(() => {
@@ -182,7 +208,7 @@ export default function PrefecturePage() {
               onClick={() => refreshPrediction(true)}
               disabled={loading}
               className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed text-sm"
-              title="ニュース検索をスキップして高速更新"
+              title="ニュースキャッシュを使用して高速更新"
             >
               {loading ? "更新中..." : "⚡ 高速更新"}
             </button>
@@ -190,7 +216,7 @@ export default function PrefecturePage() {
               onClick={() => refreshPrediction(false)}
               disabled={loading}
               className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed text-sm"
-              title="最新ニュースを取得して詳細更新"
+              title="Perplexity APIで最新ニュースを再取得"
             >
               {loading ? "更新中..." : "🔄 詳細更新"}
             </button>
@@ -220,7 +246,7 @@ export default function PrefecturePage() {
             {sortedParties.length > 0 ? (
               <div className="flex flex-wrap gap-4">
                 {sortedParties.map(({ party, count }) => {
-                  const partyData = parties.find((p) => p.name === party);
+                  const partyData = getPartyByName(party);
                   return (
                     <div
                       key={party}
@@ -230,7 +256,7 @@ export default function PrefecturePage() {
                         className="w-3 h-3 rounded-full"
                         style={{ backgroundColor: partyData?.color || "#808080" }}
                       />
-                      <span className="font-medium">{party}</span>
+                      <span className="font-medium">{partyData?.name || party}</span>
                       <span className="text-lg font-bold text-gray-900">
                         {count}議席
                       </span>
@@ -242,6 +268,66 @@ export default function PrefecturePage() {
               <p className="text-gray-500">予測データがありません</p>
             )}
           </div>
+
+          {/* AI分析コメント */}
+          {prediction?.commentary && (
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+              <h3 className="font-semibold text-blue-900 mb-2 flex items-center gap-2">
+                <span>🤖</span>
+                AI情勢分析
+              </h3>
+              <p className="text-blue-800">{prediction.commentary}</p>
+            </div>
+          )}
+
+          {/* Perplexityニュース */}
+          {newsContent && (
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-semibold text-gray-900 flex items-center gap-2">
+                  <span>📰</span>
+                  取得ニュース（Perplexity）
+                </h3>
+                <div className="flex items-center gap-2">
+                  {newsCachedAt && (
+                    <span className="text-xs text-gray-500">
+                      取得: {newsCachedAt}
+                    </span>
+                  )}
+                  <button
+                    onClick={() => setShowNews(!showNews)}
+                    className="text-sm text-blue-600 hover:text-blue-800"
+                  >
+                    {showNews ? "▲ 閉じる" : "▼ 表示"}
+                  </button>
+                </div>
+              </div>
+              {showNews && (
+                <div className="mt-3">
+                  <div className="prose prose-sm max-w-none text-gray-700 whitespace-pre-wrap text-sm leading-relaxed max-h-96 overflow-y-auto">
+                    {newsContent}
+                  </div>
+                  {newsSources.length > 0 && (
+                    <div className="mt-4 pt-3 border-t border-gray-200">
+                      <p className="text-xs text-gray-500 mb-1">参照元:</p>
+                      <ul className="text-xs text-blue-600 space-y-0.5">
+                        {newsSources.slice(0, 5).map((source, i) => (
+                          <li key={i}>
+                            <a href={source} target="_blank" rel="noopener noreferrer" className="hover:underline truncate block">
+                              {source}
+                            </a>
+                          </li>
+                        ))}
+                        {newsSources.length > 5 && (
+                          <li className="text-gray-400">...他 {newsSources.length - 5} 件</li>
+                        )}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
 
           {/* District List */}
           <div>
@@ -265,7 +351,7 @@ export default function PrefecturePage() {
                       {district.candidates
                         .sort((a, b) => (b.predictedVoteShare || 0) - (a.predictedVoteShare || 0))
                         .map((candidate, index) => {
-                          const partyData = parties.find((p) => p.name === candidate.party);
+                          const partyData = getPartyByName(candidate.party);
                           const isLeading = candidate.name === district.leadingCandidate || index === 0;
                           return (
                             <div

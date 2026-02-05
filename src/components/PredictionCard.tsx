@@ -1,6 +1,6 @@
 "use client";
 
-import { partyColors } from "@/lib/utils/colors";
+import { getPartyColor } from "@/lib/utils/colors";
 
 interface PredictionCardProps {
   title: string;
@@ -23,7 +23,7 @@ export default function PredictionCard({
     low: { text: "低", color: "bg-red-100 text-red-800" },
   };
 
-  const partyColor = partyColors[party] || "#808080";
+  const partyColor = getPartyColor(party);
 
   return (
     <div

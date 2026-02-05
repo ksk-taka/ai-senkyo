@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "npx tsx scripts/test-prediction.ts",
     "update-predictions": "node scripts/update-all-predictions.mjs"
   },
   "dependencies": {

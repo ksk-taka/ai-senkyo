@@ -84,7 +84,7 @@ ${newsData}
     "totalSeats": 465,
     "predictions": [
       {"party": "自民党", "seatRange": [最小, 最大], "change": 前回比},
-      {"party": "立憲民主党", "seatRange": [最小, 最大], "change": 増減},
+      {"party": "中道改革連合", "seatRange": [最小, 最大], "change": 増減},
       {"party": "日本維新の会", "seatRange": [最小, 最大], "change": 増減},
       {"party": "公明党", "seatRange": [最小, 最大], "change": 増減},
       {"party": "国民民主党", "seatRange": [最小, 最大], "change": 増減},
@@ -106,7 +106,7 @@ ${newsData}
           "districtName": "東京1区",
           "candidates": [
             {"name": "山田太郎", "party": "自民党", "isIncumbent": true, "predictedVoteShare": 35},
-            {"name": "鈴木花子", "party": "立憲民主党", "isIncumbent": false, "predictedVoteShare": 32},
+            {"name": "鈴木花子", "party": "中道改革連合", "isIncumbent": false, "predictedVoteShare": 32},
             {"name": "田中一郎", "party": "日本維新の会", "isIncumbent": false, "predictedVoteShare": 20}
           ],
           "leadingCandidate": "山田太郎",
